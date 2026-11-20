@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple NLP-powered college FAQ chatbot.">
+  <title>CampusConnect | College FAQ Assistant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-icon">C</div>
+        <div><strong>CampusConnect</strong><span>STUDENT HELP DESK</span></div>
+      </div>
+
+      <section class="side-intro">
+        <span class="eyebrow">YOUR CAMPUS COMPANION</span>
+        <h1>Questions?<br><span>We've got answers.</span></h1>
+        <p>Ask about admissions, exams, fees, library services and more.</p>
+      </section>
+
+      <div class="side-divider"></div>
+      <div class="side-label">POPULAR QUESTIONS</div>
+      <div id="suggestions" class="suggestions">
+        <button class="suggestion" data-question="How can I apply for admission?">Admission process <span>↗</span></button>
+        <button class="suggestion" data-question="What is the college fee structure?">Fee structure <span>↗</span></button>
+        <button class="suggestion" data-question="Where can I find the examination timetable?">Exam timetable <span>↗</span></button>
+        <button class="suggestion" data-question="What is the minimum attendance requirement?">Attendance rules <span>↗</span></button>
+      </div>
+
+      <div class="sidebar-footer">
+        <div class="status-dot"></div>
+        <span>FAQ assistant is ready</span>
+      </div>
+    </aside>
+
+    <section class="chat-panel">
+      <header class="chat-header">
+        <div class="assistant-profile">
+          <div class="avatar">✦</div>
+          <div><strong>Campus Assistant</strong><span><i></i> Online · Usually replies instantly</span></div>
+        </div>
+        <button id="clearChat" class="clear-button" type="button" title="Clear conversation">↻ <span>New chat</span></button>
+      </header>
+
+      <div class="chat-content" id="chatContent" aria-live="polite">
+        <div class="date-label"><span>YOUR CAMPUS HELP DESK</span></div>
+        <article class="message-row bot-row">
+          <div class="message-avatar">✦</div>
+          <div class="message-stack">
+            <div class="message-bubble bot-bubble">
+              <p>Hey there! 👋 Welcome to CampusConnect.</p>
+              <p>I'm your college FAQ assistant. I can help you find information about admissions, fees, examinations, attendance, library services, placements and more.</p>
+              <p>What would you like to know today?</p>
+            </div>
+            <span class="message-time">Campus Assistant</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="chat-bottom">
+        <div class="typing-indicator" id="typingIndicator" hidden><span></span><span></span><span></span> Finding an answer...</div>
+        <form id="chatForm" class="input-area">
+          <input id="messageInput" type="text" maxlength="500" autocomplete="off" placeholder="Type your question here..." aria-label="Type your question">
+          <button id="sendButton" type="submit" aria-label="Send message"><span>Send</span><b>↑</b></button>
+        </form>
+        <p class="disclaimer">CampusConnect can make mistakes. Confirm important details with your college office.</p>
+      </div>
+    </section>
+  </main>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
