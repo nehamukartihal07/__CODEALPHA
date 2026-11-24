@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is your return policy?",
+    "keywords": "send back return item exchange money back",
+    "answer": "You can return any product within 30 days of delivery for a full refund, as long as it is unused and in its original packaging."
+  },
+  {
+    "question": "How do I track my order?",
+    "keywords": "where is my parcel package shipment status location",
+    "answer": "Open 'My Orders' in your account and click 'Track'. You will also get a tracking link by email once your order ships."
+  },
+  {
+    "question": "How long does shipping take?",
+    "keywords": "delivery time arrive package parcel days when will",
+    "answer": "Standard shipping takes 3-5 business days. Express shipping takes 1-2 business days."
+  },
+  {
+    "question": "What payment methods do you accept?",
+    "keywords": "pay card credit debit UPI wallet cash on delivery net banking",
+    "answer": "We accept credit and debit cards, UPI, net banking, and popular wallets. Cash on delivery is available for orders under 5000 rupees."
+  },
+  {
+    "question": "How can I cancel my order?",
+    "keywords": "cancel stop purchase undo",
+    "answer": "You can cancel from 'My Orders' before the order is shipped. After shipping, please use the return option instead."
+  },
+  {
+    "question": "How do I reset my password?",
+    "keywords": "forgot password login sign in account recover",
+    "answer": "Click 'Forgot password' on the login page, enter your email, and follow the reset link we send you."
+  },
+  {
+    "question": "How do I contact customer support?",
+    "keywords": "help talk agent phone call email complaint",
+    "answer": "You can email support@example.com or call 1800-123-456 between 9 AM and 6 PM, Monday to Saturday."
+  },
+  {
+    "question": "Do you offer international shipping?",
+    "keywords": "abroad overseas outside country worldwide global",
+    "answer": "Yes, we ship to more than 40 countries. International delivery usually takes 7-14 business days."
+  },
+  {
+    "question": "How do I get a refund?",
+    "keywords": "money back reimbursement refund returned item when",
+    "answer": "Refunds are issued to your original payment method within 5-7 business days after we receive the returned item."
+  },
+  {
+    "question": "Is there a warranty on products?",
+    "keywords": "guarantee broken defect repair damaged warranty",
+    "answer": "All electronics come with a 1-year manufacturer warranty. Keep your invoice as proof of purchase."
+  },
+  {
+    "question": "How do I change my delivery address?",
+    "keywords": "edit update wrong address location shipping address",
+    "answer": "You can edit the address from 'My Orders' until the order is shipped. After that, contact customer support."
+  },
+  {
+    "question": "Do you have discount coupons?",
+    "keywords": "offer promo code sale deal voucher cheaper",
+    "answer": "Subscribe to our newsletter to receive a welcome coupon. We also share seasonal offers on our homepage."
+  }
+]
